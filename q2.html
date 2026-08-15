@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Student Admission Form</h1>
+    <p>College Admission Portal</p>
+</header>
+
+<div class="form-container">
+<h2>Admission Application</h2>
+<p>Please enter the required details to apply for admission.</p>
+
+<form>
+<fieldset>
+<legend>Personal Information</legend>
+<div class="grid">
+<label>Full Name
+    <input type="text" placeholder="Enter your full name" required>
+</label>
+<label>Date of Birth
+    <input type="date" required>
+</label>
+<label>Email Address
+    <input type="email" placeholder="example@email.com" required>
+</label>
+<label>Mobile Number
+    <input type="tel" placeholder="Enter mobile number">
+</label>
+</div>
+<label>Gender</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+</fieldset>
+
+<fieldset>
+<legend>Academic Information</legend>
+<div class="grid">
+<label>Preferred Course
+<select>
+    <option>Select a course</option>
+    <option>Computer Science and Engineering</option>
+    <option>Information Technology</option>
+</select>
+</label>
+<label>Higher Secondary Percentage
+    <input type="number" placeholder="Enter percentage">
+</label>
+<label>Passing Year
+    <input type="number" value="2026">
+</label>
+<label>Qualification
+    <input type="text" placeholder="e.g. Higher Secondary">
+</label>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Contact Information</legend>
+<label>Address
+    <textarea placeholder="Enter your complete address"></textarea>
+</label>
+<div class="grid">
+<label>City <input type="text" placeholder="Enter city"></label>
+<label>PIN Code <input type="text" placeholder="Enter PIN code"></label>
+</div>
+</fieldset>
+
+<fieldset>
+<legend>Media & Documents</legend>
+<input type="file" accept="image/*">
+<img src="student.jpg" alt="Student photograph">
+<video controls><source src="admission.mp4" type="video/mp4"></video>
+<audio controls><source src="admission.mp3" type="audio/mpeg"></audio>
+</fieldset>
+
+<fieldset>
+<legend>Additional Details</legend>
+<div class="grid">
+<label>Preferred Color <input type="color"></label>
+<label>Personal Website <input type="url" placeholder="https://example.com"></label>
+<label>Computer Skill Level <input type="range"></label>
+<label>Search Interest <input type="search" placeholder="Enter your interest"></label>
+</div>
+<label><input type="checkbox" required> I confirm that the information provided is correct.</label>
+</fieldset>
+
+<button type="submit">Submit Application</button>
+<button type="reset">Reset Form</button>
+</form>
+</div>
+</body>
+</html>
+

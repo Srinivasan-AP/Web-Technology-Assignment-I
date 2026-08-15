@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Billing System</title>
+    <link rel="stylesheet" href="billing.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Supermarket Billing System</h1>
+    <p style="text-align:center;">Enter quantity and unit price for three products</p>
+
+    <div class="product">
+        <h3>Product 1</h3>
+        <div class="inputs">
+            <label>Quantity <input type="number" id="q1" value="2"></label>
+            <label>Unit Price (₹) <input type="number" id="p1" value="500"></label>
+        </div>
+    </div>
+
+    <div class="product">
+        <h3>Product 2</h3>
+        <div class="inputs">
+            <label>Quantity <input type="number" id="q2" value="3"></label>
+            <label>Unit Price (₹) <input type="number" id="p2" value="300"></label>
+        </div>
+    </div>
+
+    <div class="product">
+        <h3>Product 3</h3>
+        <div class="inputs">
+            <label>Quantity <input type="number" id="q3" value="1"></label>
+            <label>Unit Price (₹) <input type="number" id="p3" value="800"></label>
+        </div>
+    </div>
+
+    <button onclick="calculateBill()">Calculate Bill</button>
+    <div id="result"></div>
+</div>
+    <script src="billing.js"></script>
+</body>
+</html>
