@@ -25,4 +25,4 @@ The static prototype runs by opening `stage-1-static/index.html` in a browser. I
 
 ## GitHub
 
-Create a new repository named `blood-bank-donor-stock-manager`, then upload this folder's contents. Do not add real donor or patient information.
+This project is available in the `blood-bank-manager/` folder on the `blood-bank-donor-stock-manager` branch of the student's Web Technology assignment repository. Do not add real donor or patient information.
